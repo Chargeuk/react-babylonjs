@@ -1,6 +1,7 @@
 import { Vector3, Vector2, Color3, Color4 } from '@babylonjs/core/Maths/math'
 import { Scene } from '@babylonjs/core/scene'
-import { Mesh, VertexBuffer, VertexData, MeshBuilder, } from '@babylonjs/core/Meshes'
+import { Mesh, VertexData, MeshBuilder, } from '@babylonjs/core/Meshes'
+import { VertexBuffer } from '@babylonjs/core/Buffers'
 import { Camera } from '@babylonjs/core/Cameras'
 import { SolidParticleSystem } from '@babylonjs/core/Particles'
 import { Tools } from '@babylonjs/core/Misc/tools'
